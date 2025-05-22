@@ -18,8 +18,8 @@ public class Person {
 		this.name = name;
 	}
 
-	public void setMobile(String mobile) {
-		this.hp = mobile;
+	public void sethp(String hp) {
+		this.hp = hp;
 	}
 
 	public void setCompany(String company) {
@@ -30,7 +30,7 @@ public class Person {
 		return name;
 	}
 
-	public String getMobile() {
+	public String gethp() {
 		return hp;
 	}
 

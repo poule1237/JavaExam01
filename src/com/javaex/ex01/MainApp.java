@@ -23,7 +23,7 @@ public class MainApp {
 				System.out.println(num + " 는 홀수입니다");
 			}
 
-		} else{
+		} else {
 			System.out.println(num + " 는 0보다 작은 수 입니다");
 		}
 		sc.close();

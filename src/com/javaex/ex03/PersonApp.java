@@ -4,14 +4,18 @@ import java.util.ArrayList;
 
 public class PersonApp {
 	public static void main(String[] args) {
-		ArrayList<Person> pList = new ArrayList<>();
+		ArrayList<Person> pList = new ArrayList<Person>();
 
-		pList.add(new Person("유재석", "010-1111-1111", "02-1111-1111"));
+		Person you = new Person();
+		you.setName("유재석");
+		you.sethp("010-1111-1111");
+		you.setCompany("02-2222-2222");
+		
 		pList.add(new Person("이효리", "010-2222-2222", "02-2222-2222"));
 		pList.add(new Person("박명수", "010-3333-3333", "02-3333-3333"));
 
-		for (Person person : pList) {
-			person.showInfo();
+		for (Person p : pList) {
+			p.showInfo();
 		}
 	}
 }
